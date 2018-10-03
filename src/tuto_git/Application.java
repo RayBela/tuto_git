@@ -22,14 +22,13 @@ public class Application extends Frame {
         this.add(vue);
         this.pack();
         this.setVisible(true);
+        
         this.addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent we) {
                 dispose();
             }
         }
-                
         );
-        this.setLocationRelativeTo(null);
     }
 
 }
