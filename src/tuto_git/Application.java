@@ -27,7 +27,9 @@ public class Application extends Frame {
                 dispose();
             }
         }
+                
         );
+        this.setLocationRelativeTo(null);
     }
 
 }
