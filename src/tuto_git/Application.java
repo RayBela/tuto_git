@@ -18,11 +18,9 @@ public class Application extends Frame {
         Vue vue = new Vue();
         modl.addObserver(vue);
         vue.addActionListener(ctrl);
-<<<<<<< HEAD
+
         this.setTitle("tutoriel git one");
-=======
-        this.setTitle("Mahmoud");
->>>>>>> e2e2f3d03d007415644d74c8c0b9c354eb0083b5
+
         this.add(vue);
         this.pack();
         this.setVisible(true);
